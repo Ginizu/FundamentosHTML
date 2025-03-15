@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Exercício Formulário</title>
+    </head>
+
+    <body>
+        <h1>Formulário de Inscrição</h1>
+
+        <label for="nome">Nome:</label>
+        <br>
+        <input type="text" name="nome" id="nome" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="whatsapp">WhatsApp</label>
+        <br>
+        <input type="tel" id="whatsapp" name="whatsapp" pattern="[0-9]{2}-[0-9]{4}[0-9]{4}" required>
+        <br><br>
+
+        <label>Área de atuação</label>
+        <br>
+        <input type="radio" name="desen" id="desen">
+        <label for="desen">Desenvolvimento</label>
+        <input type="radio" name="QA" id="QA">
+        <label for="QA">Quality Assurance(QA)</label>
+        <input type="radio" name="dados" id="dados">
+        <label for="dados">Análise de Dados</label>
+        <input type="radio" name="infra" id="infra">
+        <label for="infra">Infraestrutura</label>
+        <br><br>
+
+        <label for="obs">Obseervações</label>
+        <br>
+        <textarea name="obs" id="obs"></textarea>
+
+        <br><br>
+
+        <input type="checkbox" name="novidades" id="novidades">
+        <label for="novidades">Desejo receber novidades e ofertas por Email</label>
+        <br><br>
+
+        <input type="submit">
+
+    </body>
+</html>
